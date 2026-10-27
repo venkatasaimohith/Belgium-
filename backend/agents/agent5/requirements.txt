@@ -1,0 +1,3 @@
+# Agent 5 – Cross-Verify (BeSt + CadGIS)
+# stdlib only for the main script; pytest for tests
+pytest>=7

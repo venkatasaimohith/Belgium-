@@ -1,0 +1,12 @@
+# Agent 1 – Input + Deduplication
+# Dependencies
+geopandas>=0.14
+pyogrio>=0.7
+shapely>=2.0
+pandas>=2.0
+
+# For KML support (via fiona driver)
+fiona>=1.9
+
+# Testing
+pytest>=7

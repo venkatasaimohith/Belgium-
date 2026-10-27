@@ -1,0 +1,29 @@
+# Mailbox Detection Studio — Backend
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Shared API cache (PostgreSQL persistence + Redis hot cache)
+psycopg[binary]>=3.1
+redis>=5.0
+
+# Spatial / GIS
+geopandas>=0.14
+pyogrio>=0.7
+shapely>=2.0
+pandas>=2.0
+pyproj>=3.6
+
+# Images
+Pillow>=10.0
+torch>=2.0
+spandrel>=0.4
+numpy>=1.24
+opencv-python-headless>=4.8
+python-dotenv>=1.0
+rfdetr==1.10.1
+transformers>=4.40
+
+# Testing (optional)
+pytest>=7

@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and Secrets
+.env
+!.env.example
+
+# Temporary export files generated at runtime
+_temp_*
+outputs/
+*.log
+
+# Zip archives & static backups
+*.zip
+belgium_studio_project.zip
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" class="belgium-theme-dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Mailbox Detection Studio — Belgium</title>
+    <link rel="stylesheet" href="./assets/styles/app.css?v=20261024-4" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      };
+    </script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script>
+      window.BELGIUM = window.BELGIUM || {};
+    </script>
+    <script src="./assets/app/theme.js"></script>
+    <script>
+      if (window.BELGIUM && typeof window.BELGIUM.initTheme === "function") {
+        window.BELGIUM.initTheme();
+      }
+    </script>
+    <style>
+      html,
+      body,
+      #root {
+        height: 100%;
+      }
+
+      #root {
+        min-height: 0;
+      }
+
+      body.belgium-app-shell {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" src="./assets/api/http-client.js"></script>
+    <script type="text/babel" src="./assets/api/auth.js"></script>
+    <script type="text/babel" src="./assets/api/belgium-api.js?v=20261024-8"></script>
+    <script type="text/babel" src="./assets/lib/api-keys-config.js"></script>
+    <script type="text/babel" src="./assets/api/settings-api.js"></script>
+    <script type="text/babel" src="./assets/lib/job-display.js"></script>
+    <script type="text/babel" src="./assets/lib/upload-mapping.js?v=20261024-4"></script>
+    <script type="text/babel" src="./assets/components/icons.jsx"></script>
+    <script type="text/babel" src="./assets/components/ui.jsx"></script>
+    <script type="text/babel" src="./assets/components/agent-flow-selector.jsx"></script>
+    <script type="text/babel" src="./assets/components/belgium-upload-modal.jsx?v=20261024-4"></script>
+    <script type="text/babel" src="./assets/lib/pipeline-display.js"></script>
+    <script type="text/babel" src="./assets/components/belgium-records-table.jsx"></script>
+    <script type="text/babel" src="./assets/components/belgium-logs-history-modal.jsx"></script>
+    <script type="text/babel" src="./assets/components/flow-readonly-modal.jsx?v=20261024-4"></script>
+    <script type="text/babel" src="./assets/components/project-detail-actions.jsx"></script>
+    <script type="text/babel" src="./assets/components/belgium-progress-panel.jsx?v=20261024-7"></script>
+    <script type="text/babel" src="./assets/app/router.js"></script>
+    <script type="text/babel" src="./assets/components/app-sidebar.jsx"></script>
+    <script type="text/babel" src="./assets/components/app-layout.jsx"></script>
+    <script type="text/babel" src="./assets/pages/login-page.jsx"></script>
+    <script type="text/babel" src="./assets/pages/ollama-chat-page.jsx"></script>
+    <script type="text/babel" src="./assets/pages/api-keys-page.jsx"></script>
+    <script type="text/babel" src="./assets/pages/belgium-dashboard-page.jsx?v=20261024-4"></script>
+    <script type="text/babel" src="./assets/pages/belgium-project-detail-page.jsx?v=20261024-6"></script>
+    <script type="text/babel" src="./assets/app/app.jsx"></script>
+    <script type="text/babel" src="./assets/app/bootstrap.jsx"></script>
+  </body>
+</html>

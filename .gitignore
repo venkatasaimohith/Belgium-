@@ -1,0 +1,21 @@
+.env
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Generated runtime data
+output/
+backend/jobs/
+backend/images/
+backend/.runtime_urls.json
+
+# Downloaded model caches and binary weights (too large for regular Git)
+backend/agents/agent5/.florence_cache/
+backend/agents/agent5/cache/
+*.ckpt
+*.pth
+
+# Frontend dependencies and build output
+node_modules/
+dist/

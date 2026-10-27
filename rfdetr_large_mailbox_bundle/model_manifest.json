@@ -1,0 +1,29 @@
+{
+  "model": "RFDETRLarge",
+  "task": "object-detection",
+  "classes": [
+    "mailbox"
+  ],
+  "num_classes": 1,
+  "default_confidence": 0.7,
+  "default_inference_checkpoint": "weights/last_ema.pth",
+  "training_epoch": 39,
+  "rfdetr_version": "1.10.1",
+  "weights": {
+    "last_ema.pth": {
+      "purpose": "Default final-epoch EMA inference weights",
+      "bytes": 135620020,
+      "sha256": "4f3fadbb902e27675040340c3bc2d8448d9cb053d5b4bdc533d75d0c724b8701"
+    },
+    "checkpoint_best_total.pth": {
+      "purpose": "Best total-score inference weights",
+      "bytes": 135612934,
+      "sha256": "ecc7b6a7de615f95e3e5630fbfdc3c35e72d8376066565fdbb70fc6d17a6f54d"
+    },
+    "checkpoint_39.ckpt": {
+      "purpose": "Full epoch-39 training state for resume/fine-tuning",
+      "bytes": 542149078,
+      "sha256": "6535f5dbe62ea51cfadc935652e83a66f9d02111f03d97157b256c4eac7883e6"
+    }
+  }
+}

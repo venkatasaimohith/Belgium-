@@ -1,0 +1,11 @@
+# Agent 4 – Assign (neighbor blur) + Detect
+geopandas>=0.14
+shapely>=2.0
+pandas>=2.0
+Pillow>=10.0
+torch>=2.0
+spandrel>=0.4
+numpy>=1.24
+
+# Testing
+pytest>=7

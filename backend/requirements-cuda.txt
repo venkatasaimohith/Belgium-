@@ -1,0 +1,4 @@
+# Install into the project .venv before backend requirements.
+--index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128

@@ -1,0 +1,9 @@
+# Agent 2 – Parcel (CadGIS lookup + frontage)
+# Dependencies
+geopandas>=0.14
+pyogrio>=0.7
+shapely>=2.0
+pandas>=2.0
+
+# Testing
+pytest>=7

@@ -1,0 +1,6 @@
+Pillow>=10.0.0
+python-dotenv>=1.0.0
+geopandas>=0.14.0
+pyogrio>=0.7.0
+pyproj>=3.6.0
+shapely>=2.0.0
